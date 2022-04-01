@@ -1,0 +1,2 @@
+MONGODB_URL=mongodb+srv://educative-clone:educative@cluster0.ozxti.mongodb.net/educativeDatabase?retryWrites=true&w=majority
+PORT=2345

@@ -5,10 +5,12 @@ const connect = require("./configs/db")
 const app = express();
 
 const homeCourseController = require("./controllers/homeCourse.controller");
+const exploreController = require("./controllers/explore.controller");
 
 app.use(express.json())
 
 app.use("/homecourses", homeCourseController)
+app.use("/explores", exploreController)
 
 
 app.listen(process.env.PORT||2345, async ()=>{
